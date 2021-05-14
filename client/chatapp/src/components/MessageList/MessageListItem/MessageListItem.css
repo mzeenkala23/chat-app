@@ -1,0 +1,30 @@
+.message-item {
+    display: flex;
+    margin-top: 24px;
+    font-size: 14px;
+    border-top: 1px solid #2F3135;
+    border-bottom: 1px solid #2F3135;
+    padding: 24px 0;
+}
+
+.message-item__sender {
+    color: white;
+    font-weight: 600;
+}
+
+.middot {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #6C6D71;
+}
+
+.message-item__time-sent {
+    color: #6C6D71;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.message-item__content {
+    color: #5C5E62;
+    margin-top: 4px
+}

@@ -1,0 +1,43 @@
+.sidebar {
+    background-color: #0F0F13 ;
+    width: 250px;
+    height: 100%;
+    border-right: 2px solid #2F3135;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__search {
+    position: relative;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar__search-input {
+    border-radius: 8px;
+    border: none;
+    height: 35px;
+    padding-left: 31px;
+    background-color: #222429;
+}
+
+.sidebar__search-icon {
+    position: absolute;
+    top: 31px;
+    left: 30px;    
+    font-size: 22px;
+    color: #757575;
+}
+
+.sidebar__message-list {
+    background-color: red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__message-title {
+    color: #5C5E62;
+}

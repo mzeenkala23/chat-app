@@ -1,0 +1,10 @@
+#chat-header {
+    background-color: #222429;
+    border-bottom: 1px solid #2F3135;
+    color: white;
+    padding: 16px 24px;
+}
+
+.message-list {
+    background-color: green;
+}

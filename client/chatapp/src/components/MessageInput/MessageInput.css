@@ -1,0 +1,23 @@
+#message-input {
+    padding: 0 24px;
+    min-height: 100px;
+}
+
+.form {
+    height: 50px;
+}
+
+.form input {
+    border-radius: 10px;
+    background-color: #40444B;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: white;
+    padding: 0 10px;
+}
+
+.form input:focus{
+    outline: none;
+}
